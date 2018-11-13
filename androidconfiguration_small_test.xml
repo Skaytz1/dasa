@@ -13993,7 +13993,7 @@
 
 <mobileBankFromSetting>true</mobileBankFromSetting>
 
-<mobileBankFromCardSetting>false</mobileBankFromCardSetting>
+<mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 
