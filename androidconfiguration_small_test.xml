@@ -6406,7 +6406,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
-<NotificationSettingsOwn>false</NotificationSettingsOwn>
+<NotificationSettingsOwn>true</NotificationSettingsOwn>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
@@ -6685,8 +6685,8 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 </node>
 <node id="mobile.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
-<mobileBankFromCardSetting>true</mobileBankFromCardSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
+<mobileBankFromCardSetting>false</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 </node>
 <node id="194.186.207.23">
