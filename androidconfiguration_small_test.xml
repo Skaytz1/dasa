@@ -4428,7 +4428,7 @@
 
 <pushAlertEnabled>true</pushAlertEnabled>
 
-<efsMobileBank>true</efsMobileBank>
+<efsMobileBank>false</efsMobileBank>
 
 </node>
 
