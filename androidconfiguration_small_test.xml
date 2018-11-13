@@ -6558,7 +6558,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<enabled>true</enabled>
+<enabled>true</enabled> 
 </node>
 <node id="psinode2.testonline.sberbank.ru">
 <enabled>true</enabled>
