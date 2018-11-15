@@ -164,6 +164,7 @@
 <debtServiceTutorial>true</debtServiceTutorial>
 <paymentService>true</paymentService>
 <debtService>true</debtService>
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -171,6 +172,7 @@
 <debtServiceTutorial>true</debtServiceTutorial>
 <paymentService>true</paymentService>
 <debtService>true</debtService>
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 </node>
 <node id="psinode2.testonline.sberbank.ru">
 <enabled>true</enabled>
