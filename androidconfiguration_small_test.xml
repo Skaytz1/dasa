@@ -6424,7 +6424,6 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </showUniversalPushNotification>
 </node>
 </nodes>
-</param>
 <node id="194.186.207.23">
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
