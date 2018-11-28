@@ -291,9 +291,7 @@
 </node>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
-<enableFilterInNotificationTape>
-<version from="9.0" value="true"/>
-</enableFilterInNotificationTape>
+<enableFilterInNotificationTape>true</enableFilterInNotificationTape>
 <fatkashow>false</fatkashow>
 <getcvv>true</getcvv>
 <ufshistory>true</ufshistory>
