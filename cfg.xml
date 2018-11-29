@@ -4289,6 +4289,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 					</cardNotificationWithSenderNameAndComment>
 					<cardNotificationTapShowsDialog>
             <version from="9.0" value="true"/>
+						</cardNotificationTapShowsDialog>
 				</node>
 				<node id="node4.online.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
