@@ -449,6 +449,8 @@
 <panrq>true</panrq>
 <classic-encryption>true</classic-encryption>
 <showhints>true</showhints>
+<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment> 
+<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled> 
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -460,6 +462,8 @@
 <panmask>true</panmask>
 <panrq>true</panrq>
 <showhints>true</showhints>
+<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment> 
+<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled> 
 </node>
 </nodes>
 </param>
