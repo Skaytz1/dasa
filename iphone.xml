@@ -6302,6 +6302,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </param>
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
+<pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize> 
+<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
 <type>list</type>
 <nodes>
 <node id="mobile.sberbank.ru">
@@ -6343,6 +6345,9 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6356,6 +6361,9 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6369,6 +6377,9 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6382,6 +6393,9 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 </node>
 </nodes>
 <bestActions>
