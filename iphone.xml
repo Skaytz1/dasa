@@ -6319,7 +6319,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showUniversalPushNotification>true</showUniversalPushNotification>
-<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
+<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
 </node>
 <node id="194.186.207.23">
 <buttonToPostLogin>true</buttonToPostLogin>
