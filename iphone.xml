@@ -6348,7 +6348,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
+<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6365,7 +6365,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
+<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6382,7 +6382,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
+<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6399,7 +6399,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
+<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 </node>
 </nodes>
 <bestActions>
