@@ -2131,20 +2131,20 @@ The entered ID is already in use in the system. Enter a different value
 <param name="900Permissions" description="">
 <type>list</type>
 <pushAlertTimeInterval>86400</pushAlertTimeInterval>
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 <nodes>
 <node id="ift-node1.testonline.sberbank.ru">
 <efsMobileBank>false</efsMobileBank>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 <pushAlertEnabled>true</pushAlertEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 <pushAlertEnabled>true</pushAlertEnabled>
 </node>
 <node id="node0.online.sberbank.ru">
