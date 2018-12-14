@@ -6605,12 +6605,14 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
-</node>
+ <MobileBankColdPeriodDuration>"СМС-пароли отключатся на несколько дней"</MobileBankColdPeriodDuration> 
 <node id="mobile.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
-</node>
+ <MobileBankColdPeriodDuration>"СМС-пароли отключатся на несколько дней"</MobileBankColdPeriodDuration>
+  <mobileBankChangePhone>true</mobileBankChangePhone>
+ </node>
 <node id="194.186.207.23">
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
