@@ -6365,8 +6365,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>false</forcedHistoryQuery> 
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
+<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6382,8 +6382,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>false</forcedHistoryQuery> 
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
+<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6399,8 +6399,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>false</forcedHistoryQuery> 
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
+<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
 </node>
 </nodes>
 <bestActions>
