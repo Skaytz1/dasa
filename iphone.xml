@@ -7329,7 +7329,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
-<getMessageHistoryRequestEnabled>false</getMessageHistoryRequestEnabled> 
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>true</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 </node>
@@ -7347,7 +7347,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
- <getMessageHistoryRequestEnabled>false</getMessageHistoryRequestEnabled> 
+ <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
 <forcedHistoryQuery>true</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 </node>
