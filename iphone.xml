@@ -7330,7 +7330,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
-<forcedHistoryQuery>true</forcedHistoryQuery> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
@@ -7348,7 +7348,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
  <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
-<forcedHistoryQuery>true</forcedHistoryQuery> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 </node>
 </nodes>
