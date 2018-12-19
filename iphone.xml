@@ -190,7 +190,7 @@
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
-<FullTariffTurnOffEnabled>false</FullTariffTurnOffEnabled>
+<FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
 <paymentsServiceTutorial>true</paymentsServiceTutorial>
 <debtServiceTutorial>true</debtServiceTutorial>
 <paymentService>true</paymentService>
@@ -198,7 +198,7 @@
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
-<FullTariffTurnOffEnabled>false</FullTariffTurnOffEnabled>
+<FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
 <paymentsServiceTutorial>true</paymentsServiceTutorial>
 <debtServiceTutorial>true</debtServiceTutorial>
 <paymentService>true</paymentService>
