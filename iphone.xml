@@ -2127,11 +2127,11 @@ https://stenographical-devi.000webhostapp.com/WhatsApp.mp4
 <efsMobileBank>true</efsMobileBank>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<efsMobileBank>true</efsMobileBank>
+<efsMobileBank>false</efsMobileBank>
 <pushAlertEnabled>true</pushAlertEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<efsMobileBank>true</efsMobileBank>
+<efsMobileBank>false</efsMobileBank>
 <pushAlertEnabled>true</pushAlertEnabled>
 </node>
 <node id="node0.online.sberbank.ru">
