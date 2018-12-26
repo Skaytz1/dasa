@@ -7127,7 +7127,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
 <pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize> 
-<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>  
+<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <type>list</type>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
