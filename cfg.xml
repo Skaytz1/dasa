@@ -5313,7 +5313,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 		</param>
 		<param name="UsePushAutoDisable" description="алгоритм автоотключения push">
 			<type>setting</type>
-			<enabled>true</enabled>
+			<enabled>false</enabled>
 		</param>
 		<param name="PersonalDataProfile" description="Редактирование/добавление персональных данных клиента">
 			<type>list</type>
