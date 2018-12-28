@@ -5825,6 +5825,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 				<API level="17"/>
 				<API level="16"/>
 				<API level="15"/>
+				<API level="26"/>
 			</APIsCollection>
 		</param>
 		<param name="nodeDoNotShowPushTutorialForApiLevels" description="Запрет отображения туториала для устройств входящих в черный список на разных нодах">
