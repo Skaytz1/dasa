@@ -7906,4 +7906,11 @@ https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
 			</nodes>
 		</param>
 	</params>
+	-<param description="алгоритм автоотключения push" name="UsePushAutoDisable">
+
+<type>setting</type>
+
+<enabled>true</enabled>
+
+</param>
 </configuration>
