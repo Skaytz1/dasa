@@ -7910,7 +7910,7 @@ https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
 
 <type>setting</type>
 
-<enabled>false</enabled>
+<enabled>true</enabled>
 
 </param>
 </configuration>
