@@ -4450,7 +4450,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<updateTokenForegroundService>true</updateTokenForegroundService>
 					<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 					<newNotificationDesign>true</newNotificationDesign>
-					<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
+					<showAlertBeforeTPUDisable>false</showAlertBeforeTPUDisable>
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 					<scanActivationWithPush>true</scanActivationWithPush>
 					<webUrlInUniversalPushNotification>
