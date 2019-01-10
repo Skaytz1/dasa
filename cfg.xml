@@ -7846,6 +7846,7 @@ https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
 			<unassignService>true</unassignService>
 			<incomesService>true</incomesService>
 		</param>
+		
 		<param name="AccountCardDetail" description="Отдельная вкладка для реквизитов карточного счета">
 			<type>service</type>
 			<enabled>true</enabled>
@@ -7906,7 +7907,12 @@ https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
 				</node>
 			</nodes>
 		</param>
-	</params>
+		<param name="NotificationsEnableSuggestion" description="">            
+    <type>setting</type>            
+    <enabled>true</enabled>
+			<periodInDays>7</periodInDays>
+</param>
+		</params>
 	-<param description="алгоритм автоотключения push" name="UsePushAutoDisable">
 
 <type>setting</type>
