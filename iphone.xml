@@ -8147,5 +8147,10 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/oferta_western_union.pdf
 <type>setting</type>
 <enabled>true</enabled>
 </param>
+ <param name="NotificationsEnableSuggestion" description="">            
+    <type>setting</type>            
+    <enabled>true</enabled>
+  <periodInDays>7</periodInDays>
+</param>
 </params>
 </configuration>
