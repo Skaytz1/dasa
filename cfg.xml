@@ -4484,7 +4484,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					notificationShowWithOperationType> 
+					<notificationShowWithOperationType> 
                    <version from="9.1" value="true"/>  
                 </notificationShowWithOperationType> 
 				</node>
@@ -4534,7 +4534,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					notificationShowWithOperationType> 
+					<notificationShowWithOperationType> 
                    <version from="9.1" value="true"/>  
                 </notificationShowWithOperationType> 
 				</node>
@@ -4584,7 +4584,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					notificationShowWithOperationType> 
+					<notificationShowWithOperationType> 
                    <version from="9.1" value="true"/>  
                 </notificationShowWithOperationType> 
 				</node>
@@ -4635,7 +4635,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					notificationShowWithOperationType> 
+					<notificationShowWithOperationType> 
                    <version from="9.1" value="true"/>  
                 </notificationShowWithOperationType> 
 				</node>
@@ -4686,7 +4686,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					notificationShowWithOperationType> 
+					<notificationShowWithOperationType> 
                    <version from="9.1" value="true"/>  
                 </notificationShowWithOperationType> 
 				</node>
@@ -4715,7 +4715,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</webUrlInUniversalPushNotification>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					notificationShowWithOperationType> 
+					<notificationShowWithOperationType> 
                    <version from="9.1" value="true"/>  
                 </notificationShowWithOperationType> 
 				</node>
@@ -4766,7 +4766,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</webUrlInUniversalPushNotification>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					notificationShowWithOperationType> 
+					<notificationShowWithOperationType> 
                    <version from="9.1" value="true"/>  
                 </notificationShowWithOperationType> 
 				</node>
