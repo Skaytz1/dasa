@@ -5875,7 +5875,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 		</param>
 		<param name="pushListAlternativeDesign" description="Возможность отображения альтернативного варианта ленты уведомлений">
 			<type>setting</type>
-			<enabled>true</enabled>
+			<enabled>false</enabled>
 		</param>
 		<param name="nodePushListAlternativeDesign" description="Возможность альтернативного варианта ленты уведомлений на разных нодах">
 			<type>list</type>
