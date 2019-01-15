@@ -6064,7 +6064,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="CardPushEnabled" description="">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="DDAPermissions" description="Консолидированные включатели функционала Data Driven App">
 <type>list</type>
