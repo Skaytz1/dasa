@@ -5023,7 +5023,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="StaticSourceMerchantPics" description="статресурс для логотипов">
 <type>source</type>
-<link>https://pfm-stat.online.sberbank.ru/PFM/logos/</link>
+<link>https://pqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqfm-stat.online.sberbank.ru/PFM/logos/</link>
 </param>
 <param name="CarLoanRequest" description="Заявка на автокредит с версии 9.3">
 <type>setting</type>
@@ -7649,6 +7649,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -7666,6 +7667,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -7683,6 +7685,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -7700,6 +7703,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
