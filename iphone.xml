@@ -7649,7 +7649,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<pushLogoTypeUsing>false</pushLogoTypeUsing> 
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -7667,7 +7667,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<pushLogoTypeUsing>false</pushLogoTypeUsing> 
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -7685,7 +7685,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<pushLogoTypeUsing>false</pushLogoTypeUsing> 
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -7703,7 +7703,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newPushProccessing>true</newPushProccessing>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<pushLogoTypeUsing>false</pushLogoTypeUsing> 
+<pushLogoTypeUsing>true</pushLogoTypeUsing> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
