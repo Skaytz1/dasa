@@ -4303,6 +4303,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 					<enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
 				</node>
 				<node id="mobile.sberbank.ru">
+					<changeNotificationPhoneNumberFromProfileEditor>true</changeNotificationPhoneNumberFromProfileEditor>
 					<targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 					<cacheEnabled>true</cacheEnabled>
 					<showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
@@ -4363,6 +4364,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 					<enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<changeNotificationPhoneNumberFromProfileEditor>true</changeNotificationPhoneNumberFromProfileEditor>
 					<targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 					<cacheEnabled>true</cacheEnabled>
 					<showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
@@ -4383,6 +4385,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 					<enableChangePhoneNumberInMB>true</enableChangePhoneNumberInMB>
 				</node>
 				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<changeNotificationPhoneNumberFromProfileEditor>true</changeNotificationPhoneNumberFromProfileEditor>
 					<targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 					<cacheEnabled>true</cacheEnabled>
 					<showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
@@ -4434,7 +4437,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 		<param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 			<type>list</type>
 			<operationTypeList>D4,J</operationTypeList>
-			<notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
+	<operationTypeList>D4,J</operationTypeList> 		<notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 			<KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 			<nodes>
 				<node id="mobile.sberbank.ru">
