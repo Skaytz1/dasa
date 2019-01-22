@@ -4641,7 +4641,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
 					<notificationShowWithOperationType> 
-                   <version from="9.1" value="true"/>  
+                   <version from="9.1" value="false"/>  
                 </notificationShowWithOperationType> 
 				</node>
 				<node id="ift-node2-mp.testonline.sberbank.ru">
@@ -4693,7 +4693,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
 					<notificationShowWithOperationType> 
-                   <version from="9.1" value="true"/>  
+                   <version from="9.1" value="false"/>  
                 </notificationShowWithOperationType> 
 				</node>
 				<node id="node4.online.sberbank.ru">
