@@ -8282,7 +8282,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<buttonToPostLogin>true</buttonToPostLogin>
+<buttonToPostLogin>false</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
@@ -8306,7 +8306,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<buttonToPostLogin>true</buttonToPostLogin>
+<buttonToPostLogin>false</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
@@ -8330,7 +8330,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<buttonToPostLogin>true</buttonToPostLogin>
+<buttonToPostLogin>false</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
@@ -8354,7 +8354,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<buttonToPostLogin>true</buttonToPostLogin>
+<buttonToPostLogin>false</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
