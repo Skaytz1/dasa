@@ -8159,7 +8159,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node2.online.sberbank.ru">
@@ -8183,7 +8183,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node3.online.sberbank.ru">
@@ -8207,7 +8207,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node4.online.sberbank.ru">
@@ -8231,7 +8231,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
@@ -8255,7 +8255,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="mobile.sberbank.ru">
@@ -8279,7 +8279,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="194.186.207.23">
@@ -8303,7 +8303,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
@@ -8327,7 +8327,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
@@ -8351,7 +8351,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
@@ -8375,7 +8375,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
@@ -8399,7 +8399,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
 </node>
 </nodes>
