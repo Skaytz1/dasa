@@ -1294,6 +1294,11 @@ The entered ID is already in use in the system. Enter a different value
 <mainEntryEnabled>true</mainEntryEnabled>
 <personalizationEnabled>true</personalizationEnabled>
 </node>
+<node id="ift-node0-mp.testonline.sberbank.ru">
+<enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
+<personalizationEnabled>true</personalizationEnabled>
+</node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
 <mainEntryEnabled>true</mainEntryEnabled>
@@ -3333,7 +3338,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
 <pensionRegistration>true</pensionRegistration>
-<governmentAnimationSearching>true</governmentAnimationSearching>
+<governmentAnimationSearching>false</governmentAnimationSearching>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
@@ -3583,7 +3588,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
 <pensionRegistration>true</pensionRegistration>
-<governmentAnimationSearching>true</governmentAnimationSearching>
+<governmentAnimationSearching>false</governmentAnimationSearching>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
@@ -6016,7 +6021,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 <param name="SberIDReEntryFragment" description="Включение экрана повторного входа через SBOL">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="SberIdPaymentAndData" description="Включение оплаты/входа через SBOL">
 <type>setting</type>
@@ -7617,7 +7622,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </nodes>
 </param>
 <param name="BiometricsLivenessChecks" description="Настройки проверок на человечность в биометрических процессах">
-<enabled>false</enabled>
+<enabled>true</enabled>
 <processes>
 <process name="ConfirmationBiometrics">
 <enabled>true</enabled>
@@ -7822,6 +7827,16 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<minorsWarning>true</minorsWarning>
+<autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
+<amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+</node>
+<node id="ift-node3-mp.testonline.sberbank.ru">
+<minorsWarning>true</minorsWarning>
+<autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
+<amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+</node>
+<node id="ift-node4-mp.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
@@ -8088,7 +8103,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
 <reactivateMainPushNotifications>true</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8112,7 +8127,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
 <reactivateMainPushNotifications>true</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node0.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8136,7 +8151,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
 <reactivateMainPushNotifications>true</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node1.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8159,8 +8174,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node2.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8183,8 +8198,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node3.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8207,8 +8222,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="node4.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8231,8 +8246,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8255,8 +8270,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="mobile.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8279,8 +8294,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="194.186.207.23">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8303,8 +8318,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8327,8 +8342,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8351,8 +8366,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8375,8 +8390,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8399,8 +8414,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
-<reactivateMainPushNotifications>false</reactivateMainPushNotifications>
-<hideMainPushNotificationsSwitcher>false</hideMainPushNotificationsSwitcher>
+<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
+<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 </nodes>
 <bestActions>
@@ -8783,7 +8798,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8791,7 +8806,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8799,7 +8814,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="mobile.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8807,7 +8822,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="194.186.207.23">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8815,7 +8830,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8823,7 +8838,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8831,7 +8846,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8839,7 +8854,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -8847,7 +8862,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
-<ShowNotificationTerm>false</ShowNotificationTerm>
+<ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 </nodes>
 </param>
@@ -9112,7 +9127,7 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 </receiveVersions>
 <agreements>
 <textSender>
-Приобретая подарочный сертификат, покупатель\nдает согласие ПАО Сбербанк на передачу\n своих персональных данных - ФИО и адреса\nэлектронной почты - маркетплейсу Беру (ООО\n"Яндекс Маркет")для оформления покупки\nподарочного сертификата.
+Приобретая подарочный сертификат, покупатель дает согласие ПАО Сбербанк на передачу своих персональных данных - ФИО и адреса электронной почты - маркетплейсу Беру (ООО "Яндекс Маркет")для оформления покупки подарочного сертификата.
 </textSender>
 </agreements>
 <nodes>
@@ -9215,10 +9230,10 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 </receiveVersions>
 <agreements>
 <textSender>
-Приобретая электронную книгу, покупатель дает\nсогласие ПАО Сбербанк на передачу адреса\nэлектронной почты ООО "Препейд Солюшенс"\nдля оформления покупки сертификата.
+Приобретая электронную книгу, покупатель дает согласие ПАО Сбербанк на передачу адреса электронной почты ООО "Препейд Солюшенс" для оформления покупки сертификата.
 </textSender>
 <textReceiver>
-Я даю согласие ПАО Сбербанк на передачу\nномера мобильного телефона, используемого\nв мобильном приложении "Сбербанк\nОнлайн", ООО "ЛитРес" с целью авторизации\nили регистрации в личном кабинете\nонлайн-библиотеки ЛитРес
+Я даю согласие ПАО Сбербанк на передачу номера мобильного телефона, используемого в мобильном приложении "Сбербанк Онлайн", ООО "ЛитРес" с целью авторизации или регистрации в личном кабинете онлайн-библиотеки ЛитРес.
 </textReceiver>
 </agreements>
 <nodes>
@@ -9328,7 +9343,7 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 </node>
 </nodes>
 </param>
-<param name="MessengerGiftsTab" description="Рубильник на таб Подарки в Диалогах">
+<param name="MessangerGiftsTab" description="Рубильник на таб Подарки в Диалогах">
 <type>setting</type>
 <enabled>true</enabled>
 </param>
