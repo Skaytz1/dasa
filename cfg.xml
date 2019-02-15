@@ -4437,9 +4437,20 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 		<param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 			<type>list</type>
 			<operationTypeList>D4,J</operationTypeList>
-	<operationTypeList>D4,J</operationTypeList> 		<notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
+			<operationTypeList>D4,J</operationTypeList>
+			<notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 			<KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 			<nodes>
+				<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
+				<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
+
+
+-
+				<filters>
+					<filter name="Зачисления" operationTypes="*, #, @,  ), ], 6, 7, A, A0, A1, B, C, D, D1, D3, D7, E, I, L, N, P, Q, R2, R3, R4, R5, R6, R7, R8, R9, RA, RB, RC, RD, RE, RU, S, U"/>
+					<filter name="Наличные" operationTypes="2, D2, B, D5, 4, D, D3"/>
+					<filter name="Переводы" operationTypes="!, *, A0, A1, A9, AT, AV, M, N, R0, R1, R9, RB, RT, RV, AG, AH, RG, RH"/>
+				</filters>
 				<node id="mobile.sberbank.ru">
 					<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4488,9 +4499,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					<notificationShowWithOperationType> 
-                   <version from="9.1" value="true"/>  
-                </notificationShowWithOperationType> 
+					<notificationShowWithOperationType>
+						<version from="9.1" value="true"/>
+					</notificationShowWithOperationType>
 				</node>
 				<node id="ift-node1.testonline.sberbank.ru">
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4538,9 +4549,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					<notificationShowWithOperationType> 
-                   <version from="9.1" value="true"/>  
-                </notificationShowWithOperationType> 
+					<notificationShowWithOperationType>
+						<version from="9.1" value="true"/>
+					</notificationShowWithOperationType>
 				</node>
 				<node id="ift-node2.testonline.sberbank.ru">
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4588,9 +4599,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					<notificationShowWithOperationType> 
-                   <version from="9.1" value="true"/>  
-                </notificationShowWithOperationType> 
+					<notificationShowWithOperationType>
+						<version from="9.1" value="true"/>
+					</notificationShowWithOperationType>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
 					<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
@@ -4640,9 +4651,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					<notificationShowWithOperationType> 
-                   <version from="9.1" value="false"/>  
-                </notificationShowWithOperationType> 
+					<notificationShowWithOperationType>
+						<version from="9.1" value="false"/>
+					</notificationShowWithOperationType>
 				</node>
 				<node id="ift-node2-mp.testonline.sberbank.ru">
 					<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
@@ -4692,9 +4703,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</cardNotificationTapShowsDialog>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					<notificationShowWithOperationType> 
-                   <version from="9.1" value="false"/>  
-                </notificationShowWithOperationType> 
+					<notificationShowWithOperationType>
+						<version from="9.1" value="false"/>
+					</notificationShowWithOperationType>
 				</node>
 				<node id="node4.online.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -4721,9 +4732,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</webUrlInUniversalPushNotification>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					<notificationShowWithOperationType> 
-                   <version from="9.1" value="true"/>  
-                </notificationShowWithOperationType> 
+					<notificationShowWithOperationType>
+						<version from="9.1" value="true"/>
+					</notificationShowWithOperationType>
 				</node>
 				<node id="greenfield1.online.sberbank.ru">
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4772,9 +4783,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</webUrlInUniversalPushNotification>
 					<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 					<snackBarDisplayTime>2</snackBarDisplayTime>
-					<notificationShowWithOperationType> 
-                   <version from="9.1" value="true"/>  
-                </notificationShowWithOperationType> 
+					<notificationShowWithOperationType>
+						<version from="9.1" value="true"/>
+					</notificationShowWithOperationType>
 				</node>
 			</nodes>
 		</param>
@@ -5568,6 +5579,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<description>
 Нажимая кнопку "Рассчитать", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -5578,6 +5590,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<description>
 Нажимая кнопку "Оформить", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -7874,7 +7887,6 @@ https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
 			<unassignService>true</unassignService>
 			<incomesService>true</incomesService>
 		</param>
-		
 		<param name="AccountCardDetail" description="Отдельная вкладка для реквизитов карточного счета">
 			<type>service</type>
 			<enabled>true</enabled>
@@ -7935,17 +7947,15 @@ https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
 				</node>
 			</nodes>
 		</param>
-		<param name="NotificationsEnableSuggestion" description="">            
-    <type>setting</type>            
-    <enabled>true</enabled>
+		<param name="NotificationsEnableSuggestion" description="">
+			<type>setting</type>
+			<enabled>true</enabled>
 			<periodInDays>7</periodInDays>
-</param>
-		</params>
-	-<param description="алгоритм автоотключения push" name="UsePushAutoDisable">
-
-<type>setting</type>
-
-<enabled>true</enabled>
-
-</param>
+		</param>
+	</params>
+	-
+	<param description="алгоритм автоотключения push" name="UsePushAutoDisable">
+		<type>setting</type>
+		<enabled>true</enabled>
+	</param>
 </configuration>
