@@ -4452,6 +4452,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<filter name="Переводы" operationTypes="!, *, A0, A1, A9, AT, AV, M, N, R0, R1, R9, RB, RT, RV, AG, AH, RG, RH"/>
 				</filters>
 				<node id="mobile.sberbank.ru">
+					<newAlertWhenTPUActivate>
+                <version from="9.4" value="false"/>
+            </newAlertWhenTPUActivate>
 					<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 					<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -4604,6 +4607,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</notificationShowWithOperationType>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<newAlertWhenTPUActivate>
+                <version from="9.4" value="false"/>
+            </newAlertWhenTPUActivate>
 					<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 					<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4656,6 +4662,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					</notificationShowWithOperationType>
 				</node>
 				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<newAlertWhenTPUActivate>
+                <version from="9.4" value="false"/>
+            </newAlertWhenTPUActivate>
 					<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 					<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 					<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
