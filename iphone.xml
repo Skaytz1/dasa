@@ -8691,6 +8691,9 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 </node>
 <node id="mobile.sberbank.ru">
+   <smartSearchInNotificationList>
+                <version from="9.3" value="true"/>
+            </smartSearchInNotificationList
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
