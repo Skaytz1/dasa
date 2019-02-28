@@ -8693,6 +8693,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <node id="mobile.sberbank.ru">
    <smartSearchInNotificationList>
                 <version from="9.3" value="true"/>
+     <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
             </smartSearchInNotificationList>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
