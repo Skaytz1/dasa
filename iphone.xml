@@ -8770,7 +8770,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8800,7 +8800,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="node0.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8830,7 +8830,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="node1.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8860,7 +8860,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="node2.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8890,7 +8890,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="node3.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8920,7 +8920,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="node4.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8950,7 +8950,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8980,7 +8980,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="mobile.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9010,7 +9010,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>false</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="194.186.207.23">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9040,7 +9040,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9070,7 +9070,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9100,7 +9100,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9131,7 +9131,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9161,7 +9161,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 </nodes>
 <bestActions>
