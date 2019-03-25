@@ -1,4 +1,4 @@
-getMessageHistoryRequestEnabled<configuration>
+<configuration>
 	<params>
 		<param name="SberKids" description="Родительский функционал СберKids">
 			<eribMarkers>false</eribMarkers>
