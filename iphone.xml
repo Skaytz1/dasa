@@ -8739,6 +8739,8 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <enabled>true</enabled>
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
+ <pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize> 
+<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
 <type>list</type>
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <nodes>
@@ -8997,7 +8999,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
-<nativePushProcessingEnabled>true</nativePushProcessingEnabled>
+<nativePushProcessingEnabled>true</nativePushProcessingEnabled>newAlertWhenTPUActivate
 <webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
@@ -9103,6 +9105,9 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+ <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -9134,6 +9139,9 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+ <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
