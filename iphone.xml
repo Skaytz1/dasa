@@ -1,4 +1,4 @@
-<configuration>
+getMessageHistoryRequestEnabled<configuration>
 	<params>
 		<param name="SberKids" description="Родительский функционал СберKids">
 			<eribMarkers>false</eribMarkers>
@@ -9000,7 +9000,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 					<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 					<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 					<showUniversalPushNotification>true</showUniversalPushNotification>
-					<getMessageHistoryRequestEnabled>false</getMessageHistoryRequestEnabled>
+					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 					<nativePushProcessingEnabled>true</nativePushProcessingEnabled>newAlertWhenTPUActivate
 
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
