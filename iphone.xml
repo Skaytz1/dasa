@@ -8987,6 +8987,8 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 					<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 				</node>
 				<node id="mobile.sberbank.ru">
+					<forcedHistoryQuery>false</forcedHistoryQuery> 
+                                      <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
