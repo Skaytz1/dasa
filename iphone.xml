@@ -8741,8 +8741,8 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 			<enabled>true</enabled>
 		</param>
 		<param name="PushPermissions" description="единый стек параметров для push">
-			<pushHistoryHeadBatchSize>5</pushHistoryHeadBatchSize>
-			<pushHistoryScrollBatchSize>2</pushHistoryScrollBatchSize>
+			<pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize>
+			<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
 			<type>list</type>
 			<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 			<nodes>
@@ -8987,8 +8987,8 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 					<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 				</node>
 				<node id="mobile.sberbank.ru">
-					<forcedHistoryQuery>false</forcedHistoryQuery> 
-                                      <forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory> 
+					<forcedHistoryQuery>true</forcedHistoryQuery> 
+                                      <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
