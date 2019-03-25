@@ -9000,7 +9000,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 					<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 					<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 					<showUniversalPushNotification>true</showUniversalPushNotification>
-					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
+					<getMessageHistoryRequestEnabled>false</getMessageHistoryRequestEnabled>
 					<nativePushProcessingEnabled>true</nativePushProcessingEnabled>newAlertWhenTPUActivate
 
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
