@@ -4292,7 +4292,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/policy.pdf
 			</depositPromoBanner>
 		</param>
 		<param name="iOSPlatform" description="Парамтеры iOS Platform">
-			<loaderRequestAdapterEnabled>true</loaderRequestAdapterEnabled>
+			<loaderRequestAdapterEnabled>false</loaderRequestAdapterEnabled>
 		</param>
 		<param name="geoservice" description="Настройка URL гео-сервисов для блоков">
 			<type>list</type>
