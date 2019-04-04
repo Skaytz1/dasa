@@ -4485,7 +4485,7 @@ https://www.sberbank.ru/ru/person/help-center/bankrupt
 </param>
 <param name="SpecialTutorialUID" description="Туториалы из списка 'специальные' и должны показываться при каждой регистрации">
 <tutorials>
-<tutorial UID="TransactionPushAutoTransferKey"/>
+
 <tutorial UID="TutorialAnalyticsAgreement"/>
 <tutorial UID="TutorialIncognitoKey"/>
 <tutorial UID="TutorialStatementsKey"/>
@@ -4493,7 +4493,7 @@ https://www.sberbank.ru/ru/person/help-center/bankrupt
 </param>
 <param name="AllowedTutorialUID" description="Туториалы разрешенные к показу">
 <tutorials>
-<tutorial UID="TransactionPushAutoTransferKey"/>
+
 <tutorial UID="TutorialAnalyticsAgreement"/>
 <tutorial UID="TutorialIncognitoKey"/>
 <tutorial UID="TGPTutorialDataSource"/>
@@ -9185,7 +9185,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9219,7 +9219,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="node0.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9253,7 +9253,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="node1.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9287,7 +9287,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="node2.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9321,7 +9321,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="node3.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9355,7 +9355,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="node4.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9389,7 +9389,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9423,7 +9423,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="mobile.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9457,7 +9457,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="194.186.207.23">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9491,7 +9491,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9525,7 +9525,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9559,7 +9559,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9594,7 +9594,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -9628,7 +9628,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
-<tutorialAboutAutomaticTransferTPUSettings>false</tutorialAboutAutomaticTransferTPUSettings>
+<tutorialAboutAutomaticTransferTPUSettings>true</tutorialAboutAutomaticTransferTPUSettings>
 </node>
 </nodes>
 <bestActions>
