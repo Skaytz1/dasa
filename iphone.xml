@@ -21,7 +21,7 @@
 <type>setting</type>
 <enabled>false</enabled>
 </param>
-<param name="CardCheckLoon" description="Функционал проверки номера карты по алгоритму Луна в классических переводах по номеру карты">
+<param name="CardCheckLuhn" description="Функционал проверки номера карты по алгоритму Луна в классических переводах по номеру карты">
 <type>setting</type>
 <enabled>true</enabled>
 </param>
@@ -819,6 +819,7 @@
 </param>
 <param name="CardCVVSMS" description="Определение типов карт для которых доступен запрос CVC2/CVV2">
 <type>service</type>
+<enabled>true</enabled>
 <cardCvvList>
 <cardCvv id="MasterCard Mass"/>
 <cardCvv id="Visa Digital"/>
@@ -2058,7 +2059,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 </param>
 <param name="local_tips" description="">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="pfmHosts" description="Список хостов для phizPFM">
 <type>list</type>
@@ -2552,7 +2553,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <SmartSearchChatWithBankEnabled>true</SmartSearchChatWithBankEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<dialog900>false</dialog900>
+<dialog900>true</dialog900>
 <SmartSearchChatWithBankEnabled>true</SmartSearchChatWithBankEnabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
@@ -2560,7 +2561,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <SmartSearchChatWithBankEnabled>true</SmartSearchChatWithBankEnabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<dialog900>false</dialog900>
+<dialog900>true</dialog900>
 <SmartSearchChatWithBankEnabled>true</SmartSearchChatWithBankEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
@@ -4485,7 +4486,7 @@ https://www.sberbank.ru/ru/person/help-center/bankrupt
 </param>
 <param name="SpecialTutorialUID" description="Туториалы из списка 'специальные' и должны показываться при каждой регистрации">
 <tutorials>
-
+<tutorial UID="TransactionPushAutoTransferKey"/>
 <tutorial UID="TutorialAnalyticsAgreement"/>
 <tutorial UID="TutorialIncognitoKey"/>
 <tutorial UID="TutorialStatementsKey"/>
@@ -4493,7 +4494,7 @@ https://www.sberbank.ru/ru/person/help-center/bankrupt
 </param>
 <param name="AllowedTutorialUID" description="Туториалы разрешенные к показу">
 <tutorials>
-
+<tutorial UID="TransactionPushAutoTransferKey"/>
 <tutorial UID="TutorialAnalyticsAgreement"/>
 <tutorial UID="TutorialIncognitoKey"/>
 <tutorial UID="TGPTutorialDataSource"/>
@@ -4520,7 +4521,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/policy.pdf
 <autofillEnabled>true</autofillEnabled>
 <siriShortcutsEnabled>true</siriShortcutsEnabled>
 <combinedRegistration>true</combinedRegistration>
-<sberIDRegFirstScreen>false</sberIDRegFirstScreen>
+<sberIDRegFirstScreen>true</sberIDRegFirstScreen>
 <sberIDRegAndAuth>true</sberIDRegAndAuth>
 <newFocusStyle>true</newFocusStyle>
 <newTextsForRegistrationEnabled>true</newTextsForRegistrationEnabled>
@@ -4536,6 +4537,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/policy.pdf
 </param>
 <param name="iOSPlatform" description="Парамтеры iOS Platform">
 <loaderRequestAdapterEnabled>true</loaderRequestAdapterEnabled>
+<servicesPaymentsEnabled>true</servicesPaymentsEnabled>
 </param>
 <param name="geoservice" description="Настройка URL гео-сервисов для блоков">
 <type>list</type>
@@ -5829,7 +5831,19 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="creditCardDynamicFields" description="Динамические поля на экране с информацией по кредитной карте при заказе в ЕФС">
 <type>service</type>
+<enabled>false</enabled>
+</param>
+<param name="GetDoc" description="Кредитная карта подробности тарифа">
+<type>list</type>
 <enabled>true</enabled>
+<services>
+<service name="GetDoc" description="">
+<host>https://pfl-efs.sigma.sbrf.ru:443</host>
+<path>
+/credit-cards/short-form-capacity/v1/mobile/banking/product/ccard/short-ccard-request/getTextOfCardDetailsInfo
+</path>
+</service>
+</services>
 </param>
 <param name="creditCardUfsHistory" description="Отображение подробностей по заказу кредитной карты ЕФС в ИО">
 <type>service</type>
@@ -6807,6 +6821,10 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </string>
 <errorTitle>Оплата не выполнена</errorTitle>
 </param>
+<param name="SberIDQRPayment" description="Включение QR-оплаты">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
 <param name="P2PTransferByPhoneToOtherBank" description="Перевод в другие банки по номеру телефона через УЭК">
 <type>list</type>
 <enabled>true</enabled>
@@ -6913,23 +6931,23 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled_9_9>true</enabled_9_9>
-<copecksInAmountDisabled>true</copecksInAmountDisabled>
+<copecksInAmountDisabled>false</copecksInAmountDisabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled_9_9>true</enabled_9_9>
-<copecksInAmountDisabled>true</copecksInAmountDisabled>
+<copecksInAmountDisabled>false</copecksInAmountDisabled>
 </node>
 <node id="ift-node3-mp.testonline.sberbank.ru">
 <enabled_9_9>true</enabled_9_9>
-<copecksInAmountDisabled>true</copecksInAmountDisabled>
+<copecksInAmountDisabled>false</copecksInAmountDisabled>
 </node>
 <node id="ift-node4-mp.testonline.sberbank.ru">
 <enabled_9_9>true</enabled_9_9>
-<copecksInAmountDisabled>true</copecksInAmountDisabled>
+<copecksInAmountDisabled>false</copecksInAmountDisabled>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <enabled_9_9>true</enabled_9_9>
-<copecksInAmountDisabled>true</copecksInAmountDisabled>
+<copecksInAmountDisabled>false</copecksInAmountDisabled>
 </node>
 <node id="194.186.207.23">
 <enabled_9_9>true</enabled_9_9>
@@ -7279,7 +7297,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="TxPushSuggestion" description="">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <periodInDays>1</periodInDays>
 <number>5</number>
 </param>
@@ -9181,7 +9199,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9215,7 +9233,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9249,7 +9267,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9283,7 +9301,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9317,7 +9335,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9351,7 +9369,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9385,7 +9403,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9419,7 +9437,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9453,7 +9471,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>false</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9487,7 +9505,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9521,7 +9539,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9555,7 +9573,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9590,7 +9608,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -9624,7 +9642,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 <reactivateMainPushNotifications2>true</reactivateMainPushNotifications2>
-<transactionNewTutorialAvailable>true</transactionNewTutorialAvailable>
+<transactionNewTutorialAvailable>false</transactionNewTutorialAvailable>
 <forcedHistoryQuery>true</forcedHistoryQuery>
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <NewNotificationsListFilter>true</NewNotificationsListFilter>
@@ -11097,37 +11115,37 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/card_tariffs.xml
 <node id="mobile.sberbank.ru">
 <NavigationBarEntryPointEnabled>true</NavigationBarEntryPointEnabled>
 <SSLPinningEnabled>true</SSLPinningEnabled>
-<VoiceProcessingServiceBase64URL>d3M6Ly85NS4yMTYuMTYwLjM3OjgwOTAvd3MvYXNr</VoiceProcessingServiceBase64URL>
+<VoiceProcessingServiceBaseURL>ws://vps-nlpp.apps.test-ose.sigma.sbrf.ru/ws/ask</VoiceProcessingServiceBaseURL>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <NavigationBarEntryPointEnabled>true</NavigationBarEntryPointEnabled>
 <SSLPinningEnabled>true</SSLPinningEnabled>
-<VoiceProcessingServiceBase64URL>d3M6Ly85NS4yMTYuMTYwLjM3OjgwOTAvd3MvYXNr</VoiceProcessingServiceBase64URL>
+<VoiceProcessingServiceBaseURL>ws://vps-nlpp.apps.test-ose.sigma.sbrf.ru/ws/ask</VoiceProcessingServiceBaseURL>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <NavigationBarEntryPointEnabled>true</NavigationBarEntryPointEnabled>
 <SSLPinningEnabled>true</SSLPinningEnabled>
-<VoiceProcessingServiceBase64URL>d3M6Ly85NS4yMTYuMTYwLjM3OjgwOTAvd3MvYXNr</VoiceProcessingServiceBase64URL>
+<VoiceProcessingServiceBaseURL>ws://vps-nlpp.apps.test-ose.sigma.sbrf.ru/ws/ask</VoiceProcessingServiceBaseURL>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <NavigationBarEntryPointEnabled>true</NavigationBarEntryPointEnabled>
 <SSLPinningEnabled>true</SSLPinningEnabled>
-<VoiceProcessingServiceBase64URL>d3M6Ly85NS4yMTYuMTYwLjM3OjgwOTAvd3MvYXNr</VoiceProcessingServiceBase64URL>
+<VoiceProcessingServiceBaseURL>ws://vps-nlpp.apps.test-ose.sigma.sbrf.ru/ws/ask</VoiceProcessingServiceBaseURL>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <NavigationBarEntryPointEnabled>true</NavigationBarEntryPointEnabled>
 <SSLPinningEnabled>true</SSLPinningEnabled>
-<VoiceProcessingServiceBase64URL>d3M6Ly85NS4yMTYuMTYwLjM3OjgwOTAvd3MvYXNr</VoiceProcessingServiceBase64URL>
+<VoiceProcessingServiceBaseURL>ws://vps-nlpp.apps.test-ose.sigma.sbrf.ru/ws/ask</VoiceProcessingServiceBaseURL>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <NavigationBarEntryPointEnabled>true</NavigationBarEntryPointEnabled>
 <SSLPinningEnabled>true</SSLPinningEnabled>
-<VoiceProcessingServiceBase64URL>d3M6Ly85NS4yMTYuMTYwLjM3OjgwOTAvd3MvYXNr</VoiceProcessingServiceBase64URL>
+<VoiceProcessingServiceBaseURL>ws://vps-nlpp.apps.test-ose.sigma.sbrf.ru/ws/ask</VoiceProcessingServiceBaseURL>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <NavigationBarEntryPointEnabled>true</NavigationBarEntryPointEnabled>
 <SSLPinningEnabled>true</SSLPinningEnabled>
-<VoiceProcessingServiceBase64URL>d3M6Ly85NS4yMTYuMTYwLjM3OjgwOTAvd3MvYXNr</VoiceProcessingServiceBase64URL>
+<VoiceProcessingServiceBaseURL>ws://vps-nlpp.apps.test-ose.sigma.sbrf.ru/ws/ask</VoiceProcessingServiceBaseURL>
 </node>
 </nodes>
 </param>
