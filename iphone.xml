@@ -470,6 +470,13 @@
 <provider name="ТСЖ Малкова" codeservice="561523"/>
 </providers>
 </node>
+<node id="ift-node5-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<providers>
+<provider name="ТСЖ Малкова" codeservice="561523"/>
+<provider name="ТСЖ Малкова" codeservice="560523"/>
+</providers>
+</node>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
 <providers>
@@ -5789,6 +5796,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <flow permission="UFSLoanRequestPreadopted">doActionPreadoptedDeepLink</flow>
 <flow permission="UFSLoanRequestWithInsurance">doActionWithInsuranceDeepLink</flow>
 <flow permission="UFSLoanRequest">doActionDeepLink</flow>
+<flow permission="LoanRequestWithInsuranceOnRequest">doActionWithRequestInsuranceDeeplink</flow>
 </version>
 </service>
 </services>
@@ -5798,7 +5806,6 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 <services>
 <service name="ufs.kladr.v1">
-<host>https://185.157.96.21:443</host>
 <path>
 /loan-suggestion/services/rest/v2/SBOL/Suggestions.KLADR
 </path>
@@ -5831,7 +5838,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="creditCardDynamicFields" description="Динамические поля на экране с информацией по кредитной карте при заказе в ЕФС">
 <type>service</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 </param>
 <param name="GetDoc" description="Кредитная карта подробности тарифа">
 <type>list</type>
@@ -7297,7 +7304,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="TxPushSuggestion" description="">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <periodInDays>1</periodInDays>
 <number>5</number>
 </param>
@@ -9176,8 +9183,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9210,8 +9217,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9244,8 +9251,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9278,8 +9285,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9312,8 +9319,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9346,8 +9353,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9380,8 +9387,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9414,8 +9421,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9448,8 +9455,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9482,8 +9489,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9516,8 +9523,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9550,8 +9557,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9584,8 +9591,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9619,8 +9626,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>false</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -9666,6 +9673,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <NotificationsListFilter>
 <identifier>all</identifier>
 <name>Все</name>
+<type>default</type>
 </NotificationsListFilter>
 <NotificationsListFilter>
 <identifier>payment_out</identifier>
@@ -9698,7 +9706,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <NotificationsListFilter>
 <identifier>marketing</identifier>
 <name>Маркетинговые</name>
-<type>universal</type>
+<type>default</type>
 <pushTypes>101 102</pushTypes>
 </NotificationsListFilter>
 </NotificationsListFilters>
@@ -10163,6 +10171,7 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <param name="PaymentsAndTransfers">
 <type>list</type>
 <paymentDetailPaymentMenuEnabled>true</paymentDetailPaymentMenuEnabled>
+<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 <nodes>
 <node id="greenfield1.online.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10172,7 +10181,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>false</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10182,7 +10190,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="node1.online.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10192,7 +10199,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="node2.online.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10202,7 +10208,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="node3.online.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10212,7 +10217,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="node4.online.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10222,7 +10226,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="mobile.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10233,7 +10236,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>false</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10244,7 +10246,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10255,7 +10256,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10266,7 +10266,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>false</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10278,7 +10277,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
 <paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="ift-node3-mp.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10289,7 +10287,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="ift-node4-mp.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10300,7 +10297,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10312,7 +10308,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
 <paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10323,7 +10318,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 <node id="194.186.207.23">
 <smartSearchFromPayment>true</smartSearchFromPayment>
@@ -10333,7 +10327,6 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <paymentCertificate>true</paymentCertificate>
 <paymentExternalCheckEnabled>true</paymentExternalCheckEnabled>
 <paymentExecTimeInfoEnabled>true</paymentExecTimeInfoEnabled>
-<paymentCertificateBubbleEnabled>true</paymentCertificateBubbleEnabled>
 </node>
 </nodes>
 </param>
@@ -10736,7 +10729,7 @@ https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
 </link>
 <warningTextEnabled>true</warningTextEnabled>
 <warningText>
-Для операций в Сбербанк Онлайн. Полный перечень тарифов, лимитов и сроков осуществления переводов и платежей вы можете найти на сайте [www.sberbank.ru](https://www.sberbank.ru).
+Для операций в Сбербанке Онлайн. Полный перечень тарифов, лимитов и сроков осуществления переводов и платежей вы можете найти на сайте [www.sberbank.ru](https://www.sberbank.ru).
 </warningText>
 <nodes>
 <node id="node0.online.sberbank.ru">
