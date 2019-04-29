@@ -2975,7 +2975,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 				</node>
 				<node id="greenfield1.online.sberbank.ru">
 					<pushAlertEnabled>true</pushAlertEnabled>
-					<efsMobileBank>true</efsMobileBank>
+					<efsMobileBank>false</efsMobileBank>
 				</node>
 				<node id="greenfield2.online.sberbank.ru">
 					<pushAlertEnabled>true</pushAlertEnabled>
@@ -2985,7 +2985,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 				</node>
 				<node id="mobile.sberbank.ru">
 					<pushAlertEnabled>true</pushAlertEnabled>
-					<efsMobileBank>true</efsMobileBank>
+					<efsMobileBank>false</efsMobileBank>
 				</node>
 			</nodes>
 		</param>
