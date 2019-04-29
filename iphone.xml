@@ -2904,7 +2904,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 </node>
 <node id="mobile.sberbank.ru">
 <dialog900>true</dialog900>
-<SmartSearchChatWithBankEnabled>true</SmartSearchChatWithBankEnabled>
+<SmartSearchChatWithBankEnabled>false</SmartSearchChatWithBankEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <dialog900>true</dialog900>
@@ -2998,8 +2998,6 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <param name="CorePermissions" description="">
 <type>list</type>
 <enabled>true</enabled>
-<dontShowVersion>false</dontShowVersion>
-<selectCityOnMap>false</selectCityOnMap>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <coreQR>false</coreQR>
@@ -3070,7 +3068,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>false</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3159,7 +3157,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>false</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3258,7 +3256,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3356,7 +3354,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3455,7 +3453,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3554,7 +3552,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3654,7 +3652,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>false</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3755,7 +3753,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3856,7 +3854,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -3946,7 +3944,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4036,7 +4034,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4126,7 +4124,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4218,7 +4216,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4309,7 +4307,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4400,7 +4398,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4492,7 +4490,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4584,7 +4582,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4673,7 +4671,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -4765,7 +4763,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -6194,14 +6192,14 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <version id="9.6">
 <loanRequest>true</loanRequest>
 <insuranceOnIssuance>true</insuranceOnIssuance>
-<mainDeeplink>false</mainDeeplink>
+<mainDeeplink>true</mainDeeplink>
 <loanRequestPreadopted>false</loanRequestPreadopted>
 <insuranceOnRequest>false</insuranceOnRequest>
 </version>
 <version id="9.7">
 <loanRequest>true</loanRequest>
 <insuranceOnIssuance>true</insuranceOnIssuance>
-<mainDeeplink>false</mainDeeplink>
+<mainDeeplink>true</mainDeeplink>
 <loanRequestPreadopted>false</loanRequestPreadopted>
 <insuranceOnRequest>false</insuranceOnRequest>
 </version>
@@ -6513,7 +6511,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <param name="CarLoansPayment" description="Пополнение счета по автокредиту">
 <type>setting</type>
 <enabled>true</enabled>
-<refillProvider>622344</refillProvider>
+<refillProvider>688258</refillProvider>
 <param name="CarLoansDeeplink" description="Диплинк">
 <type>setting</type>
 <enabled>true</enabled>
@@ -7159,8 +7157,6 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 <enabled>true</enabled>
 <loanCalculator>true</loanCalculator>
 <kladrEnabled>true</kladrEnabled>
-<androidStyles>true</androidStyles>
-<additionalKladrWidgetsEnabled>true</additionalKladrWidgetsEnabled>
 </version>
 <version id="9.11">
 <enabled>true</enabled>
@@ -12070,7 +12066,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/card_tariffs_v2.xml
 <enabled>false</enabled>
 </node>
 <node id="node3.online.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="node4.online.sberbank.ru">
 <enabled>false</enabled>
@@ -12085,7 +12081,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/card_tariffs_v2.xml
 <enabled>true</enabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled>false</enabled>
@@ -12097,13 +12093,13 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/card_tariffs_v2.xml
 <enabled>false</enabled>
 </node>
 <node id="psinode2.testonline.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="194.186.207.23">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 </nodes>
 </param>
