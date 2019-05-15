@@ -7001,6 +7001,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<description>
 Нажимая кнопку "Рассчитать", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -7011,6 +7012,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<description>
 Нажимая кнопку "Оформить", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -9814,10 +9816,48 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 		</param>
 		<param name="PushPermissions" description="единый стек параметров для push">
 			<type>list</type>
+			<NewNotificationsListFilter>true</NewNotificationsListFilter>
 			<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 			<pushHistoryHeadBatchSize>50</pushHistoryHeadBatchSize>
 			<pushHistoryScrollBatchSize>50</pushHistoryScrollBatchSize>
 			<nodes>
+				<NotificationsListFilters>
+					<NotificationsListFilter>
+						<identifier>all</identifier>
+						<name>Все</name>
+						<type>default</type>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>payment_out</identifier>
+						<name>Списания</name>
+						<type>transaction</type>
+						<operationTypes>- ! ( [ { } 0 1 2 3 4 5 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AU D2 D6 F G K M O R T</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>payment_in</identifier>
+						<name>Зачисления</name>
+						<type>transaction</type>
+						<operationTypes>* # @  ) ] 6 7 A A0 A1 B C D D1 D3 D7 E I L N P Q R2 R3 R4 R5 R6 R7 R8 R9 RA RB RC RD RE RU S U</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>cash</identifier>
+						<name>Наличные</name>
+						<type>transaction</type>
+						<operationTypes>2 D2 B D5 4 D D3</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>p2p</identifier>
+						<name>Переводы</name>
+						<type>transaction</type>
+						<operationTypes>A0 A1 A9 AT AV M N R0 R1 R9 RB RT RV AG AH RG RH</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>marketing</identifier>
+						<name>Маркетинговый</name>
+						<type>default</type>
+						<pushTypes>101 102</pushTypes>
+					</NotificationsListFilter>
+				</NotificationsListFilters>
 				<node id="greenfield0.online.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
