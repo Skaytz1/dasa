@@ -7030,6 +7030,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/sRus.json
 					<description>
 Нажимая кнопку "Рассчитать", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 					<host>https://ift-stat.testonline.sberbank.ru:4463</host>
@@ -7044,6 +7045,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/sRus.json
 					<description>
 Нажимая кнопку "Оформить", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -9921,52 +9923,48 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/sRus.json
 			<pushHistoryScrollBatchSize>50</pushHistoryScrollBatchSize>
 			<nodes>
 				<NotificationsListFilters>
-        <NotificationsListFilter>
-            <identifier>all</identifier>
-            <name>Все</name>
-            <type>default</type>
-        </NotificationsListFilter>
- 
-        <NotificationsListFilter>
-            <identifier>payment_out</identifier>
-            <name>Списания</name>
-            <type>transaction</type>
-            <operationTypes>- ! ( [ { } 0 1 2 3 4 5 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AU D2 D6 F G K M O R T</operationTypes>
-        </NotificationsListFilter>
- 
-        <NotificationsListFilter>
-            <identifier>payment_in</identifier>
-            <name>Зачисления</name>
-            <type>transaction</type>
-            <operationTypes>* # @  ) ] 6 7 A A0 A1 B C D D1 D3 D7 E I L N P Q R2 R3 R4 R5 R6 R7 R8 R9 RA RB RC RD RE RU S U</operationTypes>
-        </NotificationsListFilter>
- 
-        <NotificationsListFilter>
-            <identifier>cash</identifier>
-            <name>Наличные</name>
-            <type>transaction</type>
-            <operationTypes>2 D2 B D5 4 D D3</operationTypes>
-        </NotificationsListFilter>
- 
-        <NotificationsListFilter>
-            <identifier>p2p</identifier>
-            <name>Переводы</name>
-            <type>transaction</type>
-            <operationTypes>A0 A1 A9 AT AV M N R0 R1 R9 RB RT RV AG AH RG RH</operationTypes>
-        </NotificationsListFilter>
- 
-        <NotificationsListFilter>
-            <identifier>marketing</identifier>
-            <name>Маркетинговый</name>
-            <type>default</type>
-            <pushTypes>101 102</pushTypes>
-        </NotificationsListFilter>
-    </NotificationsListFilters>
+					<NotificationsListFilter>
+						<identifier>all</identifier>
+						<name>Все</name>
+						<type>default</type>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>payment_out</identifier>
+						<name>Списания</name>
+						<type>transaction</type>
+						<operationTypes>- ! ( [ { } 0 1 2 3 4 5 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AU D2 D6 F G K M O R T</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>payment_in</identifier>
+						<name>Зачисления</name>
+						<type>transaction</type>
+						<operationTypes>* # @  ) ] 6 7 A A0 A1 B C D D1 D3 D7 E I L N P Q R2 R3 R4 R5 R6 R7 R8 R9 RA RB RC RD RE RU S U</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>cash</identifier>
+						<name>Наличные</name>
+						<type>transaction</type>
+						<operationTypes>2 D2 B D5 4 D D3</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>p2p</identifier>
+						<name>Переводы</name>
+						<type>transaction</type>
+						<operationTypes>A0 A1 A9 AT AV M N R0 R1 R9 RB RT RV AG AH RG RH</operationTypes>
+					</NotificationsListFilter>
+					<NotificationsListFilter>
+						<identifier>marketing</identifier>
+						<name>Маркетинговый</name>
+						<type>default</type>
+						<pushTypes>101 102</pushTypes>
+					</NotificationsListFilter>
+				</NotificationsListFilters>
 
 
 
 Типы push-уведомлений описаны по ссылке https://sbtatlas.sigma.sbrf.ru/wiki/pages/viewpage.action?pageId=26943388
 
+				
 				<node id="greenfield0.online.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
@@ -12778,3 +12776,25 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/HotPhones_v11.xml
 				</node>
 				<node id="psinode2.testonline.sberbank.ru">
 					<enabled>true</enabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="iscServiceDetails" description="Отображения условий обслуживания по картам ИЗК">
+			<type>setting</type>
+			<enabled>true</enabled>
+			<link>
+https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/levels_isc.xml
+</link>
+		</param>
+		<param name="UseTransferFromCreditCard" description="Доступность выбора кредитной карты как источника списания в переводах между своими счетами">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+	</params>
+</configuration>
