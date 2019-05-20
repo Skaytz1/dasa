@@ -9059,37 +9059,37 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/sRus.json
 		</param>
 		<param name="notificationStripeFilter" description="">
 			<type>setting</type>
-			<enabled>false</enabled>
+			<enabled>true</enabled>
 			<nodes>
 				<node id="node0.online.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="greenfield0.online.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="greenfield1.online.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="psinode1.testonline.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="mobile.sberbank.ru">
 					<enabled>true</enabled>
 				</node>
 				<node id="194.186.207.23">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="ift-node1.testonline.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="ift-node2.testonline.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 				<node id="ift-node2-mp.testonline.sberbank.ru">
-					<enabled>true</enabled>
+					<enabled>false</enabled>
 				</node>
 			</nodes>
 		</param>
