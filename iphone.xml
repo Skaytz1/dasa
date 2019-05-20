@@ -10823,7 +10823,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/sRus.json
 					<identifier>marketing</identifier>
 					<name>Маркетинговые</name>
 					<type>default</type>
-					<pushTypes>101 102</pushTypes>
+					<pushTypes>101 102 1 </pushTypes>
 				</NotificationsListFilter>
 			</NotificationsListFilters>
 		</param>
