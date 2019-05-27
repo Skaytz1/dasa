@@ -10327,7 +10327,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10372,7 +10372,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10417,7 +10417,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10445,7 +10445,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 				</node>
 				<node id="node1.online.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<forcedHistoryQuery>true</forcedHistoryQuery>
@@ -10488,7 +10488,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10533,7 +10533,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10578,7 +10578,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10623,7 +10623,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10651,7 +10651,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 				</node>
 				<node id="mobile.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<forcedHistoryQuery>true</forcedHistoryQuery>
@@ -10694,7 +10694,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10739,7 +10739,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10784,7 +10784,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10829,7 +10829,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -10875,7 +10875,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<pushLogoTypeUsing>false</pushLogoTypeUsing>
 					<UsePushAutoDisable>true</UsePushAutoDisable>
 					<reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
