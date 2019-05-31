@@ -10409,7 +10409,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushLogoTypeUsing>true</pushLogoTypeUsing>
 					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
-					<MFMSMessageRequestType>2</MFMSMessageRequestType>
+					 <MessagesWithExpired>false</MessagesWithExpired>
 					<forcedHistoryQuery>true</forcedHistoryQuery>
 					<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
