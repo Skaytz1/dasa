@@ -7417,6 +7417,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 
 						
 						
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 					<host>https://ift-stat.testonline.sberbank.ru:4463</host>
@@ -7431,6 +7432,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<description>
 Нажимая кнопку "Оформить", вы соглашаетесь с условиями
 
+						
 						
 						
 						<a>ПАО Сбербанк</a>
@@ -10403,19 +10405,19 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 			<pushHistoryHeadBatchSize>50</pushHistoryHeadBatchSize>
 			<pushHistoryScrollBatchSize>50</pushHistoryScrollBatchSize>
 			<nodes>
-				<node id="ift-node0.testonline.sberbank.ru">
-<buttonToPostLogin>true</buttonToPostLogin>
-<pushLogoTypeUsing>true</pushLogoTypeUsing>
-<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
-<MFMSMessageRequestType>2</MFMSMessageRequestType>
-<forcedHistoryQuery>true</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-<NotificationSettingsOwn>true</NotificationSettingsOwn>
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
-<showUniversalPushNotification>true</showUniversalPushNotification>
-<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
-<nativePushProcessingEnabled>true</nativePushProcessingEnabled>
-<XMLHeaderEncodingFix>true</XMLHeaderEncodingFix>
+				<node id="ift-node0-mp.testonline.sberbank.ru">
+					<buttonToPostLogin>true</buttonToPostLogin>
+					<pushLogoTypeUsing>true</pushLogoTypeUsing>
+					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
+					<MFMSMessageRequestType>2</MFMSMessageRequestType>
+					<forcedHistoryQuery>true</forcedHistoryQuery>
+					<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
+					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+					<showUniversalPushNotification>true</showUniversalPushNotification>
+					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
+					<nativePushProcessingEnabled>true</nativePushProcessingEnabled>
+					<XMLHeaderEncodingFix>true</XMLHeaderEncodingFix>
 				</node>
 				<node id="greenfield0.online.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
