@@ -7416,6 +7416,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 Нажимая кнопку "Рассчитать", вы соглашаетесь с условиями
 
 						
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 					<host>https://ift-stat.testonline.sberbank.ru:4463</host>
@@ -7430,6 +7431,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<description>
 Нажимая кнопку "Оформить", вы соглашаетесь с условиями
 
+						
 						
 						<a>ПАО Сбербанк</a>
 					</description>
@@ -10402,30 +10404,18 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 			<pushHistoryScrollBatchSize>50</pushHistoryScrollBatchSize>
 			<nodes>
 				<node id="ift-node0.testonline.sberbank.ru">
-					<buttonToPostLogin>true</buttonToPostLogin>
-					<pushLogoTypeUsing>true</pushLogoTypeUsing>
-					<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
-					<MFMSMessageRequestType>2</MFMSMessageRequestType>
-					<forcedHistoryQuery>true</forcedHistoryQuery>
-					<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
-					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
-					<showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
-					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
-					<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
-					<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
-					<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-					<showUniversalPushNotification>true</showUniversalPushNotification>
-					<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
-					<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
-					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
-					<nativePushProcessingEnabled>true</nativePushProcessingEnabled>
-					<UsePushAutoDisable>true</UsePushAutoDisable>
-					<newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
-					<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
-					<XMLHeaderEncodingFix>true</XMLHeaderEncodingFix>
-					<analyticsForErrorsAndExceptions>true</analyticsForErrorsAndExceptions>
+<buttonToPostLogin>true</buttonToPostLogin>
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
+<MFMSMessageRequestType>2</MFMSMessageRequestType>
+<forcedHistoryQuery>true</forcedHistoryQuery>
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
+<NotificationSettingsOwn>true</NotificationSettingsOwn>
+<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showUniversalPushNotification>true</showUniversalPushNotification>
+<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
+<nativePushProcessingEnabled>true</nativePushProcessingEnabled>
+<XMLHeaderEncodingFix>true</XMLHeaderEncodingFix>
 				</node>
 				<node id="greenfield0.online.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
