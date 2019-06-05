@@ -10781,6 +10781,7 @@ https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/CarLoansRus.json
 					<TransferMethodTC>true</TransferMethodTC>
 				</node>
 				<node id="mobile.sberbank.ru">
+					<changePhoneAndTariffFromProfileEditor>false</changePhoneAndTariffFromProfileEditor>
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
